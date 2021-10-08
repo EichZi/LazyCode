@@ -12,8 +12,6 @@ def insertion_sort(number_list) :
     number_list[j + 1] = actual_value
     
 my_list = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-print('Lista actual:')
-print(my_list)
+print(f'Lista original: {my_list}')
 insertion_sort(my_list)
-print('Lista ordenada:')
-print(my_list)
+print(f'Lista ordenada: {my_list}')

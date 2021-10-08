@@ -22,8 +22,6 @@ def merge_sort(number_list):
       number_list.append(right.pop(0))
         
 my_list = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-print('Lista actual:')
-print(my_list)
+print(f'Lista original: {my_list}')
 merge_sort(my_list)
-print('Lista ordenada:')
-print(my_list)
+print(f'Lista ordenada: {my_list}')
